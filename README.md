@@ -35,3 +35,14 @@ b) Add a suitable regularizer with suitable parameters to the logistic regressio
 c) Evaluate the model using accuracy criteria, ROⅭ curve, sensitivity, etc.  
 d) Which features have the greatest effect on prediction. Analyze their role and regular function of instruments.  
 https://archive.ics.uci.edu/dataset/45/heart+disease  
+
+
+
+## Part 3  
+DataSet : https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset/
+
+* Q1: Using classification methods, classify and evaluate with two criteria.  
+* Q2: Using PⅭA, Laplacian Eigenmaps and NⅯF methods; Do feature extraction. Can the NⅯF method be used? If not possible, what method do you suggest to solve this problem?  
+  (Hint: your data matrix is f x n, where n is the number of samples and f is the number of features. For Laplacian Eigenmaps, you can first convert the data into a graph with a method and then apply this method on that graph.)
+* Q3: Cluster the features and consider the cluster centers as new features.  
+  (Hint: if your data matrix is n x f, where n is the number of samples and f is the number of features, you can apply clustering with the appropriate number of clusters on them and consider the center of each cluster as an extracted feature. .)
