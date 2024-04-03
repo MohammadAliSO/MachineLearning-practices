@@ -46,3 +46,30 @@ DataSet : https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset/
   (Hint: your data matrix is f x n, where n is the number of samples and f is the number of features. For Laplacian Eigenmaps, you can first convert the data into a graph with a method and then apply this method on that graph.)
 * Q3: Cluster the features and consider the cluster centers as new features.  
   (Hint: if your data matrix is n x f, where n is the number of samples and f is the number of features, you can apply clustering with the appropriate number of clusters on them and consider the center of each cluster as an extracted feature. .)
+
+
+## Part4  
+DataSet : https://www.kaggle.com/c/titanic/data  
+* Q1: Download the Titaniⅽ dataset from the link below. Then apply enseⅿbⅼe (learn-scikit), Random Forest decision tree, ⅼogistiⅽ, KNN, SVⅯ, Bayes Naïve methods on it and evaluate and analyze the results.
+* Q2: Choose one of the following datasets:  
+  UCI-HAR: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones  
+  PhysioNet ECG: https://github.com/mathworks/physionet_ECG_data/blob/main/ECGData.zip  
+  Perform feature extraction using wavelet transform. Classify using the extracted features. You can use enseⅿbⅼe, random forest, or any other methods for classification. Do Evaluate and analyze the results.
+  Hint : (https://ataspinar.com/2018/12/21/a-guide-for-using-the-wavelet-transform-in-machine-learning/)
+* Q3: Consider an image of your face, size 32 x 32 and scale gray (normalized) or RGB. Apply convolution/correlation with the following masks (kernels) and display the results as an image:
+  1. 3 x 3 (or 5 x 5) mask including a piece of the original photo (its location as desired).  
+  2. Sharpen Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/b5740c0e-a67f-455d-80e8-b386426ce00e)  
+  3. Laplacian Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/ac80766e-f3bb-4932-9606-514d077c4747)
+  4. Emboss Mask   ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/bd335722-ee41-4808-a05e-2af9cb9e1ad2)
+  5. Outline Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/a2ed2978-e6be-4d30-b4c1-a7561f1a8d29)
+  6. Bottom Sobel Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/e359f5fd-cd1f-4849-8e1a-b13b64f92405)
+  7. Right sobel Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/a457752d-c9b8-4a14-8b63-6af16321ab0a)
+  8. Top sobel Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/c7a71674-5852-49fe-87cd-ec6f4d738d32)
+  9. Weighted Average Mask  ![image](https://github.com/MohammadAliSO/MachineLearning-practices/assets/48887675/16a398ea-7ff6-442c-82d5-6fb698128be2)  
+
+
+
+
+
+
+  
